@@ -91,7 +91,8 @@ body {
 
 .home-wrap img {
     height: 50vh;
-    animation: rotation 4s infinite linear;
+    animation: rotation 8s infinite linear;
+    border-radius: 50%;
 }
 
 @keyframes rotation {
@@ -158,6 +159,7 @@ section p, section li {
 .solutions-wrap {
     margin-top: 5vh;
     border: outset;
+    box-shadow: 5px 5px #fff500;
 }
 
 .solutions-body {
