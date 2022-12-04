@@ -91,7 +91,16 @@ body {
 
 .home-wrap img {
     height: 50vh;
-    animation: rotation 2s infinite linear;
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .home-wrap h1 {
