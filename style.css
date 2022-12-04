@@ -13,14 +13,15 @@ body {
 }
 
 .menu-wrap {
+    top: 0;
     position: fixed;
     display: flex;
     justify-content: space-between;
+    background: black;
     width: 98.5%;
 }
 
 .menu-wrap:hover {
-    background: black;
     border: outset;
 }
 
@@ -56,9 +57,9 @@ body {
     background: #333;
     color: #FFF500;
     box-shadow: inset;
-    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    /* -moz-box-shadow: 0 3px 10px 0 #CCC;
     -webkit-box-shadow: 0 3px 10px 0 #ccc;
-    text-shadow: 0px 0px 5px #fff;
+    text-shadow: 0px 0px 5px #fff; */
 }
 
 .menu li ul {
@@ -91,7 +92,6 @@ body {
 .home-wrap img {
     height: 50vh;
 }
-
 
 .home-wrap h1 {
     font-size: xx-large;
@@ -134,7 +134,37 @@ body {
     box-shadow: 5px 5px #FFF500;
 }
 
-.about-wrap {
-    background-color: #c0c0c0;
-    color: black;
+.section-title {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+section p, section li {
+    color: #c0c0c0;
+    font-size: large;
+}
+
+.solutions-wrap {
+    margin-top: 5vh;
+    border: outset;
+}
+
+.solutions-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.solutions-body div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.solutions-body div {
+    text-align: justify;
+}
+
+.solutions-body li {
+    margin-left: 10px;
 }
