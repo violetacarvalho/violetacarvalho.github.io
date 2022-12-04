@@ -91,6 +91,7 @@ body {
 
 .home-wrap img {
     height: 50vh;
+    animation: rotation 2s infinite linear;
 }
 
 .home-wrap h1 {
